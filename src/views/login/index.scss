@@ -1,0 +1,26 @@
+.login {
+  height: 100%;
+  background-color: #ccc;
+  overflow: hidden;
+
+  .form {
+    margin: 50px auto;
+    padding: 16px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+
+  .captcha {
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    cursor: pointer;
+  }
+
+  .captcha svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
